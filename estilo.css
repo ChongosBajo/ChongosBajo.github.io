@@ -1,0 +1,290 @@
+body, header, section{
+	padding: 0; margin: 0;
+}
+header{
+	height: 100%;
+	min-height: 600px;
+}
+header.imgP1{
+	background: url("img/PLAZA CHONGOS.jpg") top left;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -50px;	
+}
+header img{
+	position: relative;
+	left: 20px;
+	top: 20px;
+	width: 100px;
+}
+header span{
+	width: 100%;
+	font-size: 60px;
+
+	color: #fff;
+
+	display: block;
+	text-align: center;
+}
+
+nav li{
+list-style: none;
+display: inline-block;
+text-align: left;
+
+}
+ul{
+padding: 0;
+}
+a{
+text-decoration: none;
+color: violet;
+font-size: 20px;
+}
+a:hover{
+color: black;
+}
+nav{
+color: silver;
+font-size: 20px;
+}
+#contenido{
+width: 100%;
+margin: auto;
+}
+hr{
+  border-width: 4px;
+  border-style: dotted;
+  border-color: blue;
+  width: 50%;
+}
+
+nav {
+display: block;
+margin: 0 auto 20px;
+border: 1px solid #222;
+position: relative;
+background-color: #5FB138;
+font: 16px Tahoma; sans-serif;
+}
+nav ul{
+padding: 0;
+margin: 0;
+}
+nav ul:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+ 
+nav li {
+position: relative;
+float: left;
+list-style-type: none;
+}
+nav>ul>li{
+	width: 18%;
+	display: inline-block;
+}
+nav li a {
+display: block;
+padding: 15px 10px;
+color: white;
+text-decoration: none;
+text-align: center;
+}
+nav li a:hover{
+	color: #ddd;
+}
+nav li a:focus {
+outline: none;
+text-decoration: underline;
+}
+ 
+nav li:first-child a {
+border-left: none;
+}
+nav li.ultimo a {
+border-right: none;
+}
+ 
+nav li:hover ul {
+display: block;
+}
+
+nav a span{
+display: block;
+float: right;
+margin-left: 5px;
+}
+nav ul ul{
+display: none;
+width: 65%;
+position: absolute;
+left: 0;
+background: #5FB138;
+width: 100%;
+}
+nav ul ul li{
+float: none;
+width: 100%;
+margin-left: 0px;
+}
+nav ul ul a{
+padding: 12px 3px;
+border-left: none;
+border-right: none;
+font-size: 14px;
+margin-left: 10px;
+}
+nav ul ul a:hover; {
+background-color: #FBE080;
+}
+
+nav {
+border-radius: 4px;
+border: 0px solid;
+}
+nav li:hover {   
+background-color: #427928;
+color: #DDD;
+}
+nav ul a span{
+transform: rotate(-180deg);
+}
+
+section#principal, aside{
+display: inline-block;
+margin:0 auto;
+max-width:960px;
+min-height:200px;
+text-align:left;
+vertical-align:top;
+	width:900px;
+	float: left;
+}
+section#principal{
+	width: 880px;
+	margin-left: 20px;
+}
+section article, aside{
+	background: #5FB138;
+	border-radius:15px;
+	display: table;
+	overflow: hidden;
+	padding:0.25em;
+	margin-bottom: 20px;
+}
+
+section article div{
+	display: table-cell;
+	width: 50%;
+}
+section article .img{
+	height: 100%;
+}
+section article .imgYuyo{
+	background: url("img/yuyo chongos.JPG") top center;
+	background-size: cover;
+}
+section article .imgMazamorra{
+	background: url("img/Mazamorra de calabaza 2.JPG") top center;
+	background-size: cover;
+}
+section article .imgChicarron{
+	background: url("img/Chicharron_colorado.JPG") top center;
+	background-size: cover;
+}
+section article .imgPicaron{
+	background: url("img/Peru_Picarones.JPG") top center;
+	background-size: cover;
+}
+
+section article .imgTullupampay{
+	background: url("img/TULLUPANPAY.JPG") top center;
+	background-size: cover;
+}
+section article .imgLlamishada{
+	background: url("img/llamishada.JPG") top center;
+	background-size: cover;
+}
+section article .imgMorenada{
+	background: url("img/morenada.PNG") top center;
+	background-size: cover;
+}
+section article .imgPeregrinacion{
+	background: url("img/PEREGRINACION.JPG") top center;
+	background-size: cover;
+}
+section article .imgCanicruz{
+	background: url("img/DEBOTAS A CANI CRUZ.JPG") top center;
+	background-size: cover;
+}
+section article .imgJardin{
+	background: url("img/jardin.JPG") top center;
+	background-size: cover;
+}
+section article .imgPucushuclo{
+	background: url("img/pucushuclo.JPG") top center;
+	background-size: cover;
+}
+section article .img1{
+	background: url("img/DSC06905.JPG") top center;
+	background-size: cover;
+}
+section article .img2{
+	background: url("img/baner.gif") top center;
+	background-size: cover;
+}
+section article .imgIglesia{
+	background: url("img/iglesia (2).JPG") top center;
+	background-size: cover;
+}
+section article .imgPanoramica{
+	background: url("img/vista panoramica.jpg") top right;
+	background-size: cover;
+}
+section article .cuadrito{
+	padding: 10px;
+	color: #222;
+}
+aside{
+width:400px;
+margin-left: 20px;
+}
+.clear{
+	clear: both;
+}
+footer{
+	background:#5FB138;
+	border-radius:0.5em;
+	font-size: 20px;
+	max-width:100%;
+	padding:10px;
+	text-align:center;
+}
+footer h6{
+	font-size: .9em;
+	margin: 5px auto;
+}
+#contenido{
+	width: 100%;
+}
+#contenido aside p {
+	color: #222;
+}
+.titulo {
+	color: #FFF;
+}
+aside img{
+	width: 75px;
+	margin: 0 10px;
+}
+h6 {
+    font-size: .45em;
+    margin: 10px;
+    font-family: monospace;
+    color: #542536;
+}
